@@ -1,6 +1,8 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis:300&display=swap');
 .logo {
     background-color: rgb(255, 252, 246);
 }
@@ -13,6 +15,7 @@
 }
 .main{
     text-align: center;
+    padding-top: 50px;
 }
 .nav button {
     font-family: 'Acme', ;
@@ -22,8 +25,8 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    height: 100px;
-    padding: 50px;
+    height: 120px;
+    padding: 60px;
     font-size: 15px;
     margin: 2px 2px;
     cursor: pointer;
@@ -35,14 +38,15 @@
     /*  Making button bigger on hover  */
       height: 110%;
     }
-#Home {
+#Home{
 
     background: url(icons/home-solid.svg) center ;
+    background-color: #C70039;
     background-repeat: no-repeat;
     background-position: 50% 10%;
     background-size: 50px;
     padding-top: 80px;
-    background-color: #C70039;
+
 }
 
 #Event {
@@ -110,7 +114,58 @@
 .nav button a {
     color: aliceblue;
 }
-.about{
+.Title{
+    font-family: 'Viaoda Libre', cursive;
+
+}
+.About1{
+    background-color: bisque;
+
+}
+.About1 h2{
     margin-left: 40px;
-    font-size: 15px;
+    padding-top: 30px;
+    font-size: 50px;
+
+}
+.About_1{
+    margin-left: 40px;
+    padding-top: 10px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+
+.About2{
+    background-color: bisque;
+
+}
+.About2 h2{
+    margin-left: 40px;
+    padding-top: 30px;
+    font-size: 50px;
+
+}
+.About_2{
+    margin-left: 40px;
+    padding-top: 0px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.initiatives{
+    background-color: bisque;
+}
+.initiatives h2{
+    margin-left: 40px;
+    padding-top: 30px;
+    font-size: 50px;
+}
+.initiatives li{
+    margin-left: 40px;
+    padding-top: 0px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+
 }

@@ -68,3 +68,9 @@ label{
     border-radius: 3px;
     outline: 0;
 }
+
+@media (max-width: 700px) {
+    body {
+        background-size: auto;
+    }
+  }

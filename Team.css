@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+body{
+    background-color: rgba(212, 205, 205, 0.829);
+}
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+.team h1{
+    font-family: 'Lobster','cursive';
+    color: grey;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+.img1 {
+    margin-left: 30px;
+    width: 280px;
+    height: 200px;;
+}
+.img2{
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+
+}
+.img3 {
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+}
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(23, 24, 23, 0.986);
+  }
+  
+  .container {
+    margin-top: 50px;
+    margin-left: 10px;
+    padding: 0 16px;
+    font-family: 'Lobster', 'cursive';
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+      background-color: transparent;
+  }
+  .container h2{
+      color:grey;
+      font-size: 40px;
+
+  }
+  .container p{
+      color:grey;
+      font-size: 30px;
+  }
+.button {
+    text-align: center;
+}
+
+.return {
+    border-radius: 4px;
+    background-color: #504e4e;
+    border: none;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 30px;
+    font-family: 'Lobster','cursive';
+  }
+  
+  .return a {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-decoration: none;
+    color: blanchedalmond;
+  }
+  
+  .return a:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .return:hover a {
+    padding-right: 25px;
+  }
+  
+  .return:hover a:after {
+    opacity: 1;
+    right: 0;
+  }
+@media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
